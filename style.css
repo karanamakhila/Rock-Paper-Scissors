@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vmin;
+    background-color: cadetblue;
+}
+
+.emoji{
+    margin-top: 20px;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 5rem;
+    border: none;
+    font-size: 55px;
+
+}
+
+.emoji:hover {background-color: #9cc49d}
+
+.emoji:active {
+  background-color: #667867;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.msg-container{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#msg{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+    border-radius: 1rem;
+}
+
+#msg:hover {background-color: #9cc49d}
+
+#msg:active {
+  background-color: #667867;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
